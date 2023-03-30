@@ -25,6 +25,7 @@ const corsOptions = {
   },
 };
 
+// se comenta para que funcione el cors temporalmente
 app.use(cors(corsOptions));
 
 app.use("/api/usuarios", usuarioRoutes);
